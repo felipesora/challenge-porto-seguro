@@ -24,6 +24,54 @@ body {
     background-color: var(--cor-primaria);
 }
 
+.cabecalho{
+    background-color: var(--cor-secundaria);
+}
+
+.cabecalho_tilulo{
+    text-align: center;
+    font-family: var(--font-titulo);
+    font-size: 48px;
+    color: var(--cor-primaria);
+}
+
+.cabecalho_link{
+    display: flex;
+    gap: 0px;
+}
+
+.cabecalho_link_servico{
+        margin: 0px 0px 19px 790px;
+        background-color:var(--cor-primaria);
+        font-family: var(--font-texto);
+        font-size: 20px;
+        padding: 20px;
+        text-align: center;
+        width: 100px;
+        text-decoration: none;
+        color: black;
+        border-radius: 10px;
+}
+
+.cabecalho_link_contato{
+    margin: 0px 0px 19px 20px;
+    background-color:var(--cor-primaria);
+    font-family: var(--font-texto);
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+    width: 100px;
+    text-decoration: none;
+    color: black;
+    border-radius: 10px;
+}
+
+
+
+.cabecalho_link_links{
+    display: inline-block;
+}
+
 .apresentacao{
     padding: 10px 122px;
     display: flex;

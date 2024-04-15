@@ -182,7 +182,7 @@ body {
 }
 
 .rodape_sobre{
-    margin: 10px 0px 0px 550px;
+    margin: 10px 0px 10px 550px;
     background-color:var(--cor-primaria);
     font-family: var(--font-texto);
     font-size: 20px;
@@ -199,7 +199,7 @@ body {
 }
 
 .rodape_servico{
-    margin: 10px 0px 0px 0px;
+    margin: 10px 0px 10px 0px;
     background-color:var(--cor-primaria);
     font-family: var(--font-texto);
     font-size: 20px;
@@ -216,7 +216,7 @@ body {
 }
 
 .rodape_privacidade{
-    margin: 10px 0px 0px 0px;
+    margin: 10px 0px 10px 0px;
     background-color:var(--cor-primaria);
     font-family: var(--font-texto);
     font-size: 20px;
@@ -234,6 +234,7 @@ body {
 
 
 .rodape_copy_right{
+    text-align: center;
     font-family: var(--font-titulo);
     font-size: 20px;
     color: var(--cor-primaria);

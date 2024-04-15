@@ -26,7 +26,6 @@ body {
 .apresentacao{
     padding: 10px 122px;
     display: flex;
-    align-items: center;
     justify-content: space-between;
 }
 
@@ -55,4 +54,28 @@ body {
     font-size: 24px;
     font-family: var(--font-texto);
     padding: 375px 0px;
+    border-radius: 10px;
+}
+
+/* .apresentacao_opcoes{
+    display: flex;
+    flex-direction: column;
+    gap: 0px; 
+} */
+
+ .apresentacao_opcoes_texto{
+    margin: 90px 0px 0px 0px;
+    font-family: var(--font-texto);
+    font-size: 16px;
+} 
+
+.apresentacao_opcoes_opcao{
+    margin: 46px 0px;
+    background-color: var(--cor-terciaria);
+    width: 370px;
+    text-align: center;
+    font-size: 24px;
+    font-family: var(--font-texto);
+    padding: 375px 0px;
+    border-radius: 10px;
 }

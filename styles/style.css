@@ -175,3 +175,67 @@ body {
 .rodape{
     background-color: var(--cor-secundaria);
 }
+
+.rodape_links{
+    display: flex;
+    gap: 30px;
+}
+
+.rodape_sobre{
+    margin: 10px 0px 0px 550px;
+    background-color:var(--cor-primaria);
+    font-family: var(--font-texto);
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+    width: 200px;
+    text-decoration: none;
+    color: black;
+    border-radius: 10px;
+}
+
+.rodape_sobre:hover{
+    background-color: var(--cor-hover-cabecalho);
+}
+
+.rodape_servico{
+    margin: 10px 0px 0px 0px;
+    background-color:var(--cor-primaria);
+    font-family: var(--font-texto);
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+    width: 200px;
+    text-decoration: none;
+    color: black;
+    border-radius: 10px;
+}
+
+.rodape_servico:hover{
+    background-color: var(--cor-hover-cabecalho);
+}
+
+.rodape_privacidade{
+    margin: 10px 0px 0px 0px;
+    background-color:var(--cor-primaria);
+    font-family: var(--font-texto);
+    font-size: 20px;
+    padding: 10px;
+    text-align: center;
+    width: 200px;
+    text-decoration: none;
+    color: black;
+    border-radius: 10px;
+}
+
+.rodape_privacidade:hover{
+    background-color: var(--cor-hover-cabecalho);
+}
+
+
+.rodape_copy_right{
+    font-family: var(--font-titulo);
+    font-size: 20px;
+    color: var(--cor-primaria);
+}
+

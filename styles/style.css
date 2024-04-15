@@ -7,7 +7,8 @@
     --cor-primaria: #F1F1F1;
     --cor-secundaria: #00549F;
     --cor-terciaria: #67B5E3;
-    --cor-hover: #589fc0;
+    --cor-hover-main: #589fc0;
+    --cor-hover-cabecalho: #e2e2e2;
 
     --font-titulo: "Poppins", sans-serif;
     --font-texto: "Montserrat", sans-serif;
@@ -61,6 +62,10 @@ body {
         border-radius: 10px;
 }
 
+.cabecalho_link_servico:hover{
+    background-color: var(--cor-hover-cabecalho);
+}
+
 .cabecalho_link_contato{
     margin: 0px 0px 19px 20px;
     background-color:var(--cor-primaria);
@@ -74,7 +79,9 @@ body {
     border-radius: 10px;
 }
 
-
+.cabecalho_link_contato:hover{
+    background-color: var(--cor-hover-cabecalho);
+}
 
 .cabecalho_link_links{
     display: inline-block;
@@ -163,4 +170,8 @@ body {
 
 .apresentacao_pagamento:hover{
     background-color: var(--cor-hover);
+}
+
+.rodape{
+    background-color: var(--cor-secundaria);
 }

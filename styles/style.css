@@ -7,6 +7,7 @@
     --cor-primaria: #F1F1F1;
     --cor-secundaria: #00549F;
     --cor-terciaria: #67B5E3;
+    --cor-hover: #589fc0;
 
     --font-titulo: "Poppins", sans-serif;
     --font-texto: "Montserrat", sans-serif;
@@ -57,11 +58,6 @@ body {
     border-radius: 10px;
 }
 
-/* .apresentacao_opcoes{
-    display: flex;
-    flex-direction: column;
-    gap: 0px; 
-} */
 
  .apresentacao_opcoes_texto{
     margin: 90px 0px 0px 0px;
@@ -78,4 +74,37 @@ body {
     font-family: var(--font-texto);
     padding: 375px 0px;
     border-radius: 10px;
+}
+
+.apresentacao_mecanicos_texto{
+    margin: 90px 0px 0px 0px;
+    font-family: var(--font-texto);
+    font-size: 16px;
+}
+
+.apresentacao_mecanicos_tabela{
+    margin: 46px 0px;
+    background-color: var(--cor-terciaria);
+    width: 370px;
+    text-align: center;
+    font-size: 24px;
+    font-family: var(--font-texto);
+    padding: 375px 0px;
+    border-radius: 10px;
+}
+
+.apresentacao_pagamento{
+    background-color: var(--cor-terciaria); 
+    text-align: right;
+    font-size: 24px;
+    font-family: var(--font-texto);
+    padding: 15px 11px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: black;
+    margin: 0px 0px 0px 100px;
+}
+
+.apresentacao_pagamento:hover{
+    background-color: var(--cor-hover);
 }

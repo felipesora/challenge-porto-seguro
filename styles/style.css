@@ -36,6 +36,7 @@ body {
 .cabecalho_imagem{
     max-width: 100px;
     margin: 10px;
+    border-radius: 10px;
 }
 
 .cabecalho_tilulo{
@@ -121,7 +122,6 @@ body {
     border-radius: 10px;
 }
 
-
  .apresentacao_opcoes_texto{
     margin: 90px 0px 0px 0px;
     font-family: var(--font-texto);
@@ -169,7 +169,7 @@ body {
 }
 
 .apresentacao_pagamento:hover{
-    background-color: var(--cor-hover);
+    background-color: var(--cor-hover-main);
 }
 
 .rodape{

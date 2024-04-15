@@ -41,3 +41,18 @@ body {
     font-size: 36px;
     font-weight: 400;
 }
+
+.apresentacao_bot_texto{
+    font-family: var(--font-texto);
+    font-size: 16px;
+    
+}
+
+.apresentacao_bot_chat{
+    background-color: var(--cor-terciaria);
+    width: 370px;
+    text-align: center;
+    font-size: 24px;
+    font-family: var(--font-texto);
+    padding: 375px 0px;
+}

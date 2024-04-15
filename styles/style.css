@@ -27,9 +27,17 @@ body {
 .cabecalho{
     background-color: var(--cor-secundaria);
 }
+.cabecalho_imagem_titulo{
+    display: flex;
+    gap: 730px;
+}
+
+.cabecalho_imagem{
+    max-width: 100px;
+    margin: 10px;
+}
 
 .cabecalho_tilulo{
-    text-align: center;
     font-family: var(--font-titulo);
     font-size: 48px;
     color: var(--cor-primaria);

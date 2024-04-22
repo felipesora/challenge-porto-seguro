@@ -306,4 +306,61 @@ body {
     padding: 26% 0% 0% 0%;
 }
 
+.div_pneu_chaveiro{
+    padding: 9.5% 0% 0% 15%;
+}
+
+.texto_pneu{
+    display: flex;
+    flex-direction: column;
+    padding: 0% 0% 0% 2%;
+}
+
+.titulo_pneu{
+    font-family: var(--font-texto);
+    text-align: center;
+    font-size: 100%;
+}
+
+.paragrafo_pneu{
+    font-family: var(--font-texto);
+    font-size: 100%;
+    text-align: center;
+}
+
+.apresentacao_serviços_pneu{
+    display: flex; 
+
+
+}
+
+.texto_chaveiro{
+    display: flex;
+    flex-direction: column;
+}
+
+.titulo_chaveiro{
+    font-family: var(--font-texto);
+    text-align: center;
+    font-size: 100%;
+}
+
+.paragrafo_chaveiro{
+    font-family: var(--font-texto);
+    font-size: 100%;
+    text-align: center;
+}
+
+.apresentacao_serviços_chaveiro{
+    display: flex;
+    padding: 21% 0% 25% 0%;
+}
+
+.rodape_copy_right_servicos{
+    text-align: center;
+    font-family: var(--font-titulo);
+    font-size: 125%;
+    color: var(--cor-primaria);
+    padding: 0% 0% 1% 0%;
+}
 

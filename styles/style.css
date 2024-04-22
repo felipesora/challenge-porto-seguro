@@ -369,4 +369,65 @@ body {
     font-size: 225%;
     font-weight: 300;
 }
+.contato_whatsapp{
+    display: flex;
+    padding: 3% 0% 0% 5%;
+}
 
+.texto_whatsapp{
+    display: flex;
+    flex-direction: column;
+    padding: 1% 0% 0% 1.5%;
+}
+
+.titulo_whatsapp{
+    font-family: var(--font-texto);
+    font-size: 112.5%;
+}
+
+.paragrafo_whatsapp{
+    font-family: var(--font-texto);
+    font-size: 100%;
+}
+
+.contato_central{
+    display: flex;
+    padding: 6% 0% 0% 5%;
+}
+
+.texto_central{
+    display: flex;
+    flex-direction: column;
+    padding: 0% 0% 0% 1.5%;
+}
+
+.titulo_central{
+    font-family: var(--font-texto);
+    font-size: 112.5%;
+}
+
+.paragrafo_central{
+    font-family: var(--font-texto);
+    font-size: 100%;
+}
+
+.contato_sac{
+    display: flex;
+    padding: 6% 0% 4% 5%;
+}
+
+.texto_sac{
+    display: flex;
+    flex-direction: column;
+    padding: 1% 0% 0% 1.5%;
+}
+
+.titulo_sac{
+    font-family: var(--font-texto);
+    font-size: 112.5%;
+}
+
+.paragrafo_sac{
+    font-family: var(--font-texto);
+    font-size: 100%;
+}

@@ -239,7 +239,7 @@ body {
     font-family: var(--font-titulo);
     font-size: 20px;
     color: var(--cor-primaria);
-    
+
 }
 
 .apresentacao_serviços{
@@ -259,6 +259,51 @@ body {
     font-family: var(--font-titulo);
     font-size: 225%;
     font-weight: 300;
+}
+
+.texto_atendimento{
+    display: flex;
+    flex-direction: column;
+    padding: 0% 0% 0% 7%;
+}
+
+.titulo_atendimento{
+    font-family: var(--font-texto);
+    text-align: center;
+    font-size: 100%;
+}
+
+.paragrafo_atendimento{
+    font-family: var(--font-texto);
+    font-size: 100%;
+    text-align: center;
+}
+
+.apresentacao_serviços_atendimento{
+    display: flex;
+    padding: 16% 0% 0% 0%;
+}
+
+.texto_gincho{
+    display: flex;
+    flex-direction: column; 
+}
+
+.titulo_gincho{
+    font-family: var(--font-texto);
+    text-align: center;
+    font-size: 100%;
+}
+
+.paragrafo_gincho{
+    font-family: var(--font-texto);
+    font-size: 100%;
+    text-align: center;
+}
+
+.apresentacao_serviços_gincho{
+    display: flex;
+    padding: 26% 0% 0% 0%;
 }
 
 

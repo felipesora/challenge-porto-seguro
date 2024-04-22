@@ -274,12 +274,16 @@ body {
     font-family: var(--font-titulo);
     font-size: 125%;
     color: var(--cor-primaria);
+
 }
 
+<<<<<<< HEAD
 /* Estilização da Página de Suporte */
 
 /* Estilização da Página de Serviços */
 
+=======
+>>>>>>> 0da7db14471a0d35649fac2b0f249041eaff2696
 .apresentacao_serviços{
     display: flex;
 }
@@ -401,18 +405,24 @@ body {
     color: var(--cor-primaria);
     padding: 0% 0% 1% 0%;
 }
+<<<<<<< HEAD
 
 /* Estilização da Página de Serviços */
 
 /* Estilização da Página de Contato */
 
+=======
+>>>>>>> 0da7db14471a0d35649fac2b0f249041eaff2696
 .titulo_contato{
     padding: 1.5% 0% 0% 5.5%;
     font-family: var(--font-titulo);
     font-size: 225%;
     font-weight: 300;
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> 0da7db14471a0d35649fac2b0f249041eaff2696
 .contato_whatsapp{
     display: flex;
     padding: 3% 0% 0% 5%;
@@ -475,6 +485,7 @@ body {
     font-family: var(--font-texto);
     font-size: 100%;
 }
+<<<<<<< HEAD
 
 
 /* Estilização da Página de Contato */
@@ -595,3 +606,5 @@ body {
 
 
 }
+=======
+>>>>>>> 0da7db14471a0d35649fac2b0f249041eaff2696

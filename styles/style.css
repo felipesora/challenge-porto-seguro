@@ -363,4 +363,10 @@ body {
     color: var(--cor-primaria);
     padding: 0% 0% 1% 0%;
 }
+.titulo_contato{
+    padding: 1.5% 0% 0% 5.5%;
+    font-family: var(--font-titulo);
+    font-size: 225%;
+    font-weight: 300;
+}
 

@@ -239,5 +239,26 @@ body {
     font-family: var(--font-titulo);
     font-size: 20px;
     color: var(--cor-primaria);
+    
 }
+
+.apresentacao_serviços{
+    display: flex;
+}
+
+.div_atendimento_gincho{
+    padding: 2% 0% 0% 16%;
+}
+
+.apresentacao_serviços_titulo_atendimento{
+    display: flex;
+    flex-direction: column;
+}
+
+.apresentacao_serviços_titulo{
+    font-family: var(--font-titulo);
+    font-size: 225%;
+    font-weight: 300;
+}
+
 

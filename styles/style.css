@@ -598,10 +598,14 @@ body {
 }
 
 .imagem{
-    border: var(--cor-hover-main) solid 5px;
+    border: var(--cor-terciaria) solid 5px;
     border-radius: 10px;
 }
 
+.link_repositorio{
+    margin: 0% 0% 2% 0%;
+    font-family: var(--font-texto);
+}
 /* Estilização da Página Integrantes */
 
 @media (max-width: 1400px){

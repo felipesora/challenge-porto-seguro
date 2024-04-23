@@ -556,6 +556,16 @@ body {
 
 /* Estilização da Página Sobre Nós */
 
+/* Estilização da Página Integrantes */
+
+.cabecalho_imagem_titulo_integrantes{
+    display: flex;
+    gap: 37%;
+    align-items: center;
+}
+
+/* Estilização da Página Integrantes */
+
 @media (max-width: 1400px){
     .cabecalho_imagem_titulo{
         gap: 39%;

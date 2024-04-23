@@ -564,6 +564,44 @@ body {
     align-items: center;
 }
 
+.integrantes{
+    margin: 2% 0% 0% 5%;
+}
+
+.titulo_integrantes{
+    font-family: var(--font-titulo);
+    font-weight: 300;
+}
+
+.integrante_erick{
+    margin-top: 3%;
+    display: flex;
+    align-items: center;
+}
+
+.integrante_felipe{
+    margin-top: 3%;
+    display: flex;
+    align-items: center;
+}
+
+.integrante_gabriel{
+    margin: 3% 0% 5% 0%;
+    display: flex;
+    align-items: center;
+}
+
+.informacoes{
+    font-family: var(--font-texto);
+    font-size: 100%;
+    margin-left: 2%;
+}
+
+.imagem{
+    border: var(--cor-hover-main) solid 5px;
+    border-radius: 10px;
+}
+
 /* Estilização da Página Integrantes */
 
 @media (max-width: 1400px){

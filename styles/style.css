@@ -30,23 +30,12 @@ body {
 .cabecalho{
     background-color: var(--cor-secundaria);
 }
-.cabecalho_imagem_titulo{
-    display: flex;
-    gap: 37.5%;
-    align-items: center;
-
-}
-
-.cabecalho_imagem{
-    max-width: 6%;
-    margin: 0.5%;
-    border-radius: 10px;
-}
 
 .cabecalho_tilulo{
     font-family: var(--font-titulo);
     font-size: 300%;
     color: var(--cor-primaria);
+    margin-left: 45%;
     
 }
 
@@ -118,8 +107,6 @@ body {
     gap: 6%;
 }
 
-
-
 .titulo_apresentacao{
     font-family: var(--font-texto);
     font-size: 225%;
@@ -184,13 +171,12 @@ body {
     margin-top: 10%;
 }
 
-.x{
+.apresentacao_pagamento{
     display: flex;
     justify-content:center
-    /* margin-right: 4rem; */
 }
 
-.apresentacao_pagamento{
+.apresentacao_pagamento_botao{
     display: flex;
     background-color: var(--cor-terciaria); 
     text-align: right;
@@ -204,7 +190,7 @@ body {
     margin-left: 3.5%;
 }
 
-.apresentacao_pagamento:hover{
+.apresentacao_pagamento_botao:hover{
     background-color: var(--cor-hover-main);
 }
 
@@ -247,7 +233,7 @@ body {
     border-radius: 10px;
 }
 
-.rodape_servico:hover{
+.rodape_integrantes:hover{
     background-color: var(--cor-hover-cabecalho);
 }
 
@@ -282,7 +268,6 @@ body {
 
 .apresentacao_serviços{
     display: flex;
-    /* justify-content: space-between; */
 }
 
 .div_atendimento_gincho{
@@ -480,12 +465,14 @@ body {
 
 /* Estilização da Página de Contato */
 
-
 /* Estilização da Página de Privacidade */
-.cabecalho_imagem_titulo_privacidade{
-    display: flex;
-    gap: 28.5%;
-    align-items: center;
+
+
+.cabecalho_tilulo_privacidade{
+    font-family: var(--font-titulo);
+    font-size: 300%;
+    color: var(--cor-primaria);
+    margin-left: 36%;
 }
 
 .cabecalho_link_servico_privacidade{
@@ -501,6 +488,9 @@ body {
         border-radius: 10px;
 }
 
+.cabecalho_link_servico_privacidade:hover{
+    background-color: var(--cor-hover-cabecalho);
+}
 
 .cabecalho_link_suporte{
     margin: 0% 0% 1% 1%;
@@ -513,6 +503,10 @@ body {
     text-decoration: none;
     color: black;
     border-radius: 10px;
+}
+
+.cabecalho_link_suporte:hover{
+    background-color: var(--cor-hover-cabecalho);
 }
 
 .titulo_texto{
@@ -533,10 +527,13 @@ body {
 /* Estilização da Página de Privacidade */
 
 /* Estilização da Página Sobre Nós */
-.cabecalho_imagem_titulo_sobre{
-    display: flex;
-    gap: 37%;
-    align-items: center;
+
+
+.cabecalho_tilulo_sobre{
+    font-family: var(--font-titulo);
+    font-size: 300%;
+    color: var(--cor-primaria);
+    margin-left: 45%;
 }
 
 .titulo_sobre{
@@ -546,7 +543,7 @@ body {
 }
 
 .texto_sobre{
-    margin: 5% 0% 7% 0%;
+    margin: 5% 0% 10% 0%;
     font-family: var(--font-texto);
 }
 
@@ -558,10 +555,12 @@ body {
 
 /* Estilização da Página Integrantes */
 
-.cabecalho_imagem_titulo_integrantes{
-    display: flex;
-    gap: 37%;
-    align-items: center;
+
+.cabecalho_tilulo_integrantes{
+    font-family: var(--font-titulo);
+    font-size: 300%;
+    color: var(--cor-primaria);
+    margin-left: 44%;
 }
 
 .integrantes{
@@ -609,8 +608,8 @@ body {
 /* Estilização da Página Integrantes */
 
 @media (max-width: 1400px){
-    .cabecalho_imagem_titulo{
-        gap: 39%;
+    .cabecalho_tilulo{
+        margin-left: 47%;
     }
 
     .cabecalho_link_servico{
@@ -638,8 +637,8 @@ body {
         padding: 24% 0% 25% 0%;
     }
 
-    .cabecalho_imagem_titulo_privacidade{
-        gap: 26%;
+    .cabecalho_tilulo_privacidade{
+        margin-left: 33%;
     }
 
     .cabecalho_link_servico_privacidade{

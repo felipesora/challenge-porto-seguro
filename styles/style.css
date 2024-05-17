@@ -65,6 +65,16 @@ body {
     color: var(--cor-texto-botoes);
     border-radius: 10px;
     font-weight: bold;
+    box-shadow: 0 0 10px rgb(0,0,0, 0.1);
+    -webkit-transition-duration: 0.3s;
+    -webkit-transition-property: box-shadow, transform;
+    transition-property: box-shadow, transform;
+}
+
+.botao_entrar:hover, .botao_entrar:focus, .botao_entrar:active{
+    box-shadow: 0 0 20px rgba(175, 175, 175, 0.5);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
 }
 
 .cabecalho_link{
@@ -83,10 +93,18 @@ body {
         color: var(--cor-texto-botoes);
         border-radius: 10px;
         font-weight: bold;
+        box-shadow: 0 0 10px rgb(0,0,0, 0.1);
+        -webkit-transition-duration: 0.3s;
+        -webkit-transition-property: box-shadow, transform;
+        transition-property: box-shadow, transform;
+        
+
 }
 
-.cabecalho_link_servico:hover{
-    background-color: var(--cor-hover-cabecalho);
+.cabecalho_link_servico:hover, .cabecalho_link_servico:focus, .cabecalho_link_servico:active{
+    box-shadow: 0 0 20px rgba(175, 175, 175, 0.5);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
 }
 
 .cabecalho_link_contato{
@@ -101,10 +119,16 @@ body {
     color: var(--cor-texto-botoes);
     border-radius: 10px;
     font-weight: bold;
+    box-shadow: 0 0 10px rgb(0,0,0, 0.1);
+    -webkit-transition-duration: 0.3s;
+    -webkit-transition-property: box-shadow, transform;
+    transition-property: box-shadow, transform;
 }
 
-.cabecalho_link_contato:hover{
-    background-color: var(--cor-hover-cabecalho);
+.cabecalho_link_contato:hover, .cabecalho_link_contato:focus, .cabecalho_link_contato:active{
+    box-shadow: 0 0 20px rgba(175, 175, 175, 0.5);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
 }
 
 .cabecalho_link_links{
@@ -224,12 +248,18 @@ body {
     text-decoration: none;
     color: var(--cor-texto-botoes);
     justify-content: right;
-    margin-left: 3.5%;
+    margin-left: 4%;
     font-weight: bold;
+    box-shadow: 0 0 10px rgb(0,0,0, 0.1);
+    -webkit-transition-duration: 0.3s;
+    -webkit-transition-property: box-shadow, transform;
+    transition-property: box-shadow, transform;
 }
 
-.apresentacao_pagamento_botao:hover{
-    background-color: var(--cor-hover-main);
+.apresentacao_pagamento_botao:hover,.apresentacao_pagamento_botao:focus, .apresentacao_pagamento_botao:active {
+    box-shadow: 0 0 20px rgba(175, 175, 175, 0.5);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
 }
 
 .rodape{
@@ -253,10 +283,17 @@ body {
     border-radius: 10px;
     color: var(--cor-texto-botoes);
     font-weight: bold;
+    box-shadow: 0 0 10px rgb(0,0,0, 0.1);
+    -webkit-transition-duration: 0.3s;
+    -webkit-transition-property: box-shadow, transform;
+    transition-property: box-shadow, transform;
+
 }
 
 .rodape_sobre:hover{
-    background-color: var(--cor-hover-cabecalho);
+    box-shadow: 0 0 20px rgba(175, 175, 175, 0.5);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
 }
 
 .rodape_integrantes{
@@ -271,10 +308,16 @@ body {
     color: var(--cor-texto-botoes);
     border-radius: 10px;
     font-weight: bold;
+    box-shadow: 0 0 10px rgb(0,0,0, 0.1);
+    -webkit-transition-duration: 0.3s;
+    -webkit-transition-property: box-shadow, transform;
+    transition-property: box-shadow, transform;
 }
 
 .rodape_integrantes:hover{
-    background-color: var(--cor-hover-cabecalho);
+    box-shadow: 0 0 20px rgba(175, 175, 175, 0.5);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
 }
 
 .rodape_privacidade{
@@ -289,10 +332,16 @@ body {
     color: var(--cor-texto-botoes);
     border-radius: 10px;
     font-weight: bold;
+    box-shadow: 0 0 10px rgb(0,0,0, 0.1);
+    -webkit-transition-duration: 0.3s;
+    -webkit-transition-property: box-shadow, transform;
+    transition-property: box-shadow, transform;
 }
 
 .rodape_privacidade:hover{
-    background-color: var(--cor-hover-cabecalho);
+    box-shadow: 0 0 20px rgba(175, 175, 175, 0.5);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
 }
 
 
@@ -520,6 +569,16 @@ body {
     color: var(--cor-texto-botoes);
     border-radius: 10px;
     font-weight: bold;
+    box-shadow: 0 0 10px rgb(0,0,0, 0.1);
+    -webkit-transition-duration: 0.3s;
+    -webkit-transition-property: box-shadow, transform;
+    transition-property: box-shadow, transform;
+}
+
+.botao_entrar_privacidade:hover{
+    box-shadow: 0 0 20px rgba(175, 175, 175, 0.5);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
 }
 
 .cabecalho_tilulo_privacidade{
@@ -530,21 +589,27 @@ body {
 }
 
 .cabecalho_link_servico_privacidade{
-        margin: 0% 0% 1% 36%;
-        background-color:var(--cor-botoes);
-        font-family: var(--font-texto-botao);
-        font-weight: bold;
-        font-size: 125%;
-        padding: 1%;
-        text-align: center;
-        width: 7%;
-        text-decoration: none;
-        color: var(--cor-texto-botoes);
-        border-radius: 10px;
+    margin: 0% 0% 1% 36%;
+    background-color:var(--cor-botoes);
+    font-family: var(--font-texto-botao);
+    font-weight: bold;
+    font-size: 125%;
+    padding: 1%;
+    text-align: center;
+    width: 7%;
+    text-decoration: none;
+    color: var(--cor-texto-botoes);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgb(0,0,0, 0.1);
+    -webkit-transition-duration: 0.3s;
+    -webkit-transition-property: box-shadow, transform;
+    transition-property: box-shadow, transform;
 }
 
 .cabecalho_link_servico_privacidade:hover{
-    background-color: var(--cor-hover-cabecalho);
+    box-shadow: 0 0 20px rgba(175, 175, 175, 0.5);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
 }
 
 .cabecalho_link_suporte{
@@ -559,10 +624,16 @@ body {
     text-decoration: none;
     color: var(--cor-texto-botoes);
     border-radius: 10px;
+    box-shadow: 0 0 10px rgb(0,0,0, 0.1);
+    -webkit-transition-duration: 0.3s;
+    -webkit-transition-property: box-shadow, transform;
+    transition-property: box-shadow, transform;
 }
 
 .cabecalho_link_suporte:hover{
-    background-color: var(--cor-hover-cabecalho);
+    box-shadow: 0 0 20px rgba(175, 175, 175, 0.5);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
 }
 
 .titulo_texto{

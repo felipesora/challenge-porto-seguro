@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login & Registro </title>
+    <link rel="stylesheet" href="./stylecad.css" />
+    <link rel="shortcut icon" href="../icon/4wheels.ico" type="image/x-icon">
+  </head>
+  <body>
+    <main>
+      <div class="box">
+        <div class="inner-box"> 
+          <div class="forms-wrap">
+            <form action="home.html" autocomplete="off" class="sign-in-form">
+              <div class="logo">
+                <img src="./img/logo4wheels.jpeg" alt="4wheels">
+                <h4><span>4</span>wheels</h4>
+              </div>
+
+              <div class="heading">
+                <h2>Bem-vindo de volta!</h2>
+                <h6>Não registrado ainda?</h6>
+                <a href="#" class="toggle">Registrar-se</a>
+              </div>
+
+              <div class="actual-form">
+                <div class="input-wrap">
+                  <input
+                    type="text"
+                    minlength="4"
+                    class="input-field"
+                    autocomplete="off"
+                    required
+                  />
+                  <label>Nome</label>
+                </div>
+
+                <div class="input-wrap">
+                  <input
+                    type="password"
+                    minlength="4"
+                    class="input-field"
+                    autocomplete="off"
+                    required
+                  />
+                  <label>Senha</label>
+                </div>
+                
+                <a href="../index.html" class="sign-btn">Sign In</a>
+              <!-- <input type="submit" value="Sign In" class="sign-btn"> -->
+              <!--- FAZER A NAVEGAÇÃO RELATIVA PARA PAGINA INICIAL DO PROJETO APÓS O SUBMIT DE LOGIN-->
+              <!---<button type="submit" value="Sign In" class="sign-btn"><a href="../index.html">Sign in</a></button>!-->
+                <p class="text">
+                  esqueceu sua senha e informações de login?
+                  <a href="#">Obtenha ajuda!</a> entrar
+                </p>
+              </div>
+            </form>
+
+            <form action="home.html" autocomplete="off" class="sign-up-form">
+              <div class="logo">
+                <img src="./img/logo4wheels.jpeg" alt="4wheels">
+                <h4><span>4</span>wheels</h4>
+              </div>
+
+              <div class="heading">
+                <h2>Vamos lá!</h2>
+                <h6>Já possui uma conta?</h6>
+                <a href="#" class="toggle">Entrar</a>
+              </div>
+
+              <div class="actual-form">
+                <div class="input-wrap">
+                  <input
+                    type="text"
+                    minlength="4"
+                    class="input-field"
+                    autocomplete="off"
+                    required
+                  />
+                  <label>Nome</label>
+                </div>
+
+                <div class="input-wrap">
+                  <input
+                    type="email"
+                    class="input-field"
+                    autocomplete="off"
+                    required
+                  />
+                  <label>Email</label>
+                </div>
+
+                <div class="input-wrap">
+                  <input
+                    type="password"
+                    minlength="4"
+                    class="input-field"
+                    autocomplete="off"
+                    required
+                  />
+                  <label>Senha</label>
+                </div>
+
+                <!-- <input type="submit" value="Sign Up" class="sign-btn" /> -->
+                <a href="../index.html" class="sign-btn">Sign Up</a>
+
+                <p class="text">
+                  Ao me registrar concordo com os
+                  <a href="#">Termos de serviço</a> e
+                  <a href="#">Política de privacidade</a>
+                </p>
+              </div>
+            </form>
+          </div>
+
+          <div class="carousel">
+            <div class="images-wrapper">
+              <img src="./img/image" class="image img-1 show" alt="" />
+              <img src="./img/image" class="image img-2" alt="" />
+              <img src="./img/image" class="image img-3" alt="" />
+            </div>
+
+            <div class="text-slider">
+              <div class="text-wrap">
+                <div class="text-group">
+                  <h2>Acompanhe a vida útil de seu veículo</h2>
+                  <h2>Obtenha assistência automotiva e Convide pessoas para o 4wheels!</h2>
+                </div>
+              </div>
+
+              <div class="bullets">
+                <span class="active" data-value="1"></span>
+                <span data-value="2"></span>
+                <span data-value="3"></span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!-- Javascript file -->
+
+    <script src="app.js"></script>
+  </body>
+</html>

@@ -45,7 +45,7 @@ body {
     width: 6em;
 }
 
-.cabecalho_tilulo{
+.cabecalho_titulo{
     font-family: var(--font-titulo);
     font-size: 300%;
     color: var(--cor-primaria);
@@ -53,7 +53,7 @@ body {
     
 }
 
-.botao_entrar{
+#openModal{
     margin: 0% 0px 0px 30%;
     background-color:var(--cor-botoes);
     font-family: var(--font-texto-botao);
@@ -69,20 +69,65 @@ body {
     -webkit-transition-duration: 0.3s;
     -webkit-transition-property: box-shadow, transform;
     transition-property: box-shadow, transform;
+    border: none;
 }
 
-.botao_entrar:hover, .botao_entrar:focus, .botao_entrar:active{
+#openModal:hover{
     box-shadow: 0 0 20px rgba(175, 175, 175, 0.5);
     -webkit-transform: scale(1.1);
     transform: scale(1.1);
 }
+
+#closeModal{
+    margin: 1% 0 0 95%;
+    background-color: var(--cor-botoes);
+    border: none;
+    font-family: var(--font-texto-botao);
+    font-size: 125%;
+    padding: 0.5%;
+    text-align: center;
+    width: 4%;
+    color: var(--cor-texto-botoes);
+    border-radius: 10px;
+    font-weight: bold;
+    box-shadow: 0 0 10px rgb(0,0,0, 0.1);
+    -webkit-transition-duration: 0.3s;
+    -webkit-transition-property: box-shadow, transform;
+    transition-property: box-shadow, transform;
+    border: none;
+}
+
+#closeModal:hover{
+    box-shadow: 0 0 20px rgba(175, 175, 175, 0.5);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+dialog{
+    overflow: hidden;
+    border: none;
+    width: 70%;
+    margin: auto;
+    background-color: var(--cor-secundaria);
+    border-radius: 10px;
+}
+
+dialog::backdrop{
+    background-color: rgba(0,0,0, 0.8);
+}
+
+dialog > div{
+    width: 100%;
+    
+}
+
 
 .cabecalho_link{
     display: flex;
 }
 
 .cabecalho_link_servico{
-        margin: 0% 0% 1% 42%;
+        margin: 0% 0% 1% 44%;
         background-color:var(--cor-botoes);
         font-family: var(--font-texto-botao);
         font-size: 125%;
@@ -272,7 +317,7 @@ body {
 }
 
 .rodape_sobre{
-    margin: 1% 0% 1% 25%;
+    margin: 1% 0% 1% 28%;
     background-color:var(--cor-botoes);
     font-family: var(--font-texto-botao);
     font-size: 125%;
@@ -346,7 +391,7 @@ body {
 
 
 .rodape_copy_right{
-    text-align: center;
+    margin-left: 40%;
     font-family: var(--font-titulo);
     font-size: 125%;
     color: var(--cor-primaria);
@@ -355,6 +400,18 @@ body {
 /* Estilização da Página de Suporte */
 
 /* Estilização da Página de Serviços */
+
+.titulo_servicos{
+    margin-left: 35%;
+}
+
+.link_servico{
+    margin-left: 40%;
+}
+
+.botao_servico{
+    margin-left: 5%;
+}
 
 .apresentacao_serviços{
     display: flex;
@@ -470,8 +527,12 @@ body {
     padding: 21% 0% 25% 0%;
 }
 
+.botao_sobre_servicos{
+    margin-left: 24.5%;
+}
+
 .rodape_copy_right_servicos{
-    text-align: center;
+    margin-left: 39%;
     font-family: var(--font-titulo);
     font-size: 125%;
     color: var(--cor-primaria);
@@ -581,7 +642,7 @@ body {
     transform: scale(1.1);
 }
 
-.cabecalho_tilulo_privacidade{
+.cabecalho_titulo_privacidade{
     font-family: var(--font-titulo);
     font-size: 300%;
     color: var(--cor-primaria);
@@ -660,7 +721,7 @@ body {
     align-items: center;
 }
 
-.cabecalho_tilulo_sobre{
+.cabecalho_titulo_sobre{
     font-family: var(--font-titulo);
     font-size: 300%;
     color: var(--cor-primaria);
@@ -688,7 +749,7 @@ body {
 /* Estilização da Página Integrantes */
 
 
-.cabecalho_tilulo_integrantes{
+.cabecalho_titulo_integrantes{
     font-family: var(--font-titulo);
     font-size: 300%;
     color: var(--cor-primaria);
@@ -740,7 +801,7 @@ body {
 /* Estilização da Página Integrantes */
 
 @media (max-width: 1400px){
-    .cabecalho_tilulo{
+    .cabecalho_titulo{
         margin-left: 47%;
     }
 
@@ -769,7 +830,7 @@ body {
         padding: 24% 0% 25% 0%;
     }
 
-    .cabecalho_tilulo_privacidade{
+    .cabecalho_titulo_privacidade{
         margin-left: 33%;
     }
 

@@ -13,17 +13,15 @@ input {
   font-family: "Poppins", sans-serif;
 }
 
-.main_login {
+main {
   width: 100%;
   min-height: 100vh;
   overflow: hidden;
   background-color: #010035;
   padding: 2rem;
   display: flex;
-  /* align-items: center; */
-  margin-top: 5%;
+  align-items: center;
   justify-content: center;
-  
 }
 
 .box {
@@ -162,6 +160,22 @@ label {
   top: -2px;
 }
 
+.botao{
+  display: inline-block;
+  width: 100%;
+  height: 43px;
+  background-color: #010035;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 0.8rem;
+  font-size: 0.8rem;
+  margin-bottom: 2rem;
+  transition: 0.3s;
+  text-align: center;
+  padding-top: 0.7rem;
+  text-decoration: none;
+}
+
 .sign-btn {
   display: inline-block;
   width: 100%;
@@ -174,10 +188,6 @@ label {
   font-size: 0.8rem;
   margin-bottom: 2rem;
   transition: 0.3s;
-  text-align: center;
-  text-decoration: none;
-  padding-top: 0.5em;
-  font-size: 1rem;
 }
 
 .sign-btn:hover {

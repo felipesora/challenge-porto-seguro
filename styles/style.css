@@ -78,15 +78,15 @@ body {
     transform: scale(1.1);
 }
 
-#closeModal{
-    margin: 1% 0 0 95%;
+.botao_entrar{
+    margin: 1% 0 0 30%;
     background-color: var(--cor-botoes);
-    border: none;
     font-family: var(--font-texto-botao);
     font-size: 125%;
-    padding: 0.5%;
+    padding: 1%;
     text-align: center;
-    width: 4%;
+    text-decoration: none;
+    width: 7%;
     color: var(--cor-texto-botoes);
     border-radius: 10px;
     font-weight: bold;
@@ -97,37 +97,18 @@ body {
     border: none;
 }
 
-#closeModal:hover{
+.botao_entrar:hover{
     box-shadow: 0 0 20px rgba(175, 175, 175, 0.5);
     -webkit-transform: scale(1.1);
     transform: scale(1.1);
 }
-
-dialog{
-    overflow: hidden;
-    border: none;
-    width: 70%;
-    margin: auto;
-    background-color: var(--cor-secundaria);
-    border-radius: 10px;
-}
-
-dialog::backdrop{
-    background-color: rgba(0,0,0, 0.8);
-}
-
-dialog > div{
-    width: 100%;
-    
-}
-
 
 .cabecalho_link{
     display: flex;
 }
 
 .cabecalho_link_servico{
-        margin: 0% 0% 1% 44%;
+        margin: 0% 0% 1% 42%;
         background-color:var(--cor-botoes);
         font-family: var(--font-texto-botao);
         font-size: 125%;
@@ -317,7 +298,7 @@ dialog > div{
 }
 
 .rodape_sobre{
-    margin: 1% 0% 1% 28%;
+    margin: 1% 0% 1% 25%;
     background-color:var(--cor-botoes);
     font-family: var(--font-texto-botao);
     font-size: 125%;
@@ -528,7 +509,7 @@ dialog > div{
 }
 
 .botao_sobre_servicos{
-    margin-left: 24.5%;
+    margin-left: 23%;
 }
 
 .rodape_copy_right_servicos{

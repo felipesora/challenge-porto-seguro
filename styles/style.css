@@ -1015,6 +1015,14 @@ body {
         height: 10vh;
     }
 
+    .imagem_atendimento{
+        height: 10vh;
+    }
+
+    .imagem_chaveiro{
+        height: 10vh;
+    }
+
     .div_pneu_chaveiro{
         padding: 25% 0% 0% 1.5%;
     }
@@ -1059,7 +1067,7 @@ body {
     }
 
     .cabecalho_titulo_sobre{
-        font-size: 2rem;
+        font-size: 1.7rem;
         margin-left: 14%;
     }
 
@@ -1080,8 +1088,8 @@ body {
     }
 
     .cabecalho_titulo_integrantes{
-        font-size: 2rem;
-        margin-left: 12%;
+        font-size: 1.8rem;
+        margin-left: 11%;
     }
 
     .imagem{

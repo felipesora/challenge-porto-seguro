@@ -869,6 +869,7 @@ body {
         margin-left: 10%;
         width: 12%;
         font-size: 1rem;
+        display: block;
     }
 
     .cabecalho_link_servico{

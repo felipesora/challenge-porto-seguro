@@ -831,7 +831,7 @@ body {
 }
 /* Estilização da Página Integrantes */
 
-@media (max-width: 1400px){
+@media (max-width: 1440px){
     .cabecalho_titulo{
         margin-left: 47%;
     }
@@ -1275,6 +1275,156 @@ body {
 
     .botao_entrar_privacidade{
         margin: 2% 0% 2% 8%;
+        width: 10%;
+    }
+}
+
+@media (max-width: 750px){
+    .logo_4wheels{
+        margin: 5% 0px 0px 5%;
+        width: 6em;
+    }
+
+    .cabecalho_titulo{
+        margin-left: 20%;
+    }
+
+    .botao_entrar{
+        margin-left: 18%;
+        margin-right: 3%;
+        width: 12%;
+        font-size: 1.4rem;
+        display: block;
+    }
+
+    .cabecalho_link_servico{
+        margin: 0% 0% 2% 32%;
+        width: 16%;
+        font-size: 1.4rem;
+    }
+
+    .cabecalho_link_contato{
+        margin: 0% 0% 2% 2%;
+        width: 16%;
+        font-size: 1.4rem;
+    }
+
+    .apresentacao_mecanicos_tabela{
+        width: 60%; 
+        padding: 50% 0; 
+        font-size: 1.8rem; 
+    }
+
+    .apresentacao_pagamento_botao{
+        width: 35%;
+    }
+
+    .rodape_copy_right{
+        margin: 0% 0% 0% 25%;
+    }
+
+    .botao_entrar_servicos{
+        margin-left: 13%;
+        margin-right: 5%;
+        width: 17%;
+        font-size: 1.2rem;
+        display: block;
+        padding: 1.5% 0;
+    }
+
+    .apresentacao_serviços_titulo{
+        font-size: 3rem;
+        margin-left: 2%;
+        margin-top: 2%;
+        width: 60vw;
+    }
+
+    .imagem_gincho{
+        height: 8vh;
+    }
+
+    .imagem_atendimento{
+        height: 8vh;
+    }
+
+    .imagem_chaveiro{
+        height: 8vh;
+    }
+
+    .imagem_pneu{
+        height: 8vh;
+    }
+
+    .rodape_copy_right_servicos{
+        margin: 0% 0% 0% 24%;
+    }
+
+    .contato_whatsapp{
+        margin-top: 5%;
+    }
+
+    .cabecalho_titulo_sobre{
+        font-size: 2.9rem;
+        margin-left: 17%;
+        /* width: 50%; */
+    }
+
+    .botao_entrar_sobre{
+        margin: 1% 0 0 18%;
+        width: 12%;
+    }
+
+    .cabecalho_link_servico_privacidade{
+        margin: 0% 0% 2% 22%;
+        width: 16%;
+        font-size: 1.4rem;
+    }
+
+    .cabecalho_link_suporte{
+        margin: 0% 0% 2% 2%;
+        width: 16%;
+        font-size: 1.4rem;
+    }
+
+    .footer_sobre{
+        margin-top: 20%;
+    }
+
+    .titulo_integrantes{
+        font-size: 3rem;
+    }
+
+    .cabecalho_titulo_integrantes{
+        font-size: 3rem;
+        margin-left: 14%;
+    }
+
+    .imagem{
+        width: 25vw;
+    }
+
+    .informacoes{
+        font-size: 1.2rem;
+    }
+
+    .link_repositorio{
+        font-size: 1.2rem;
+        margin-bottom: 5%;
+    }
+
+    .botao_entrar_integrantes{
+        margin: 1% 0 0 12%;
+        width: 12%;
+    }
+
+    .cabecalho_titulo_privacidade{
+        font-size: 2.2rem;
+        margin-left: 6%;
+        width: 60%;
+    }
+
+    .botao_entrar_privacidade{
+        margin: 2% 0% 2% 2%;
         width: 10%;
     }
 }

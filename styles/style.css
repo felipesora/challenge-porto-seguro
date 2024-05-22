@@ -829,53 +829,277 @@ body {
     }
 
     .botao_entrar{
-        margin: 1% 0 0 20%;
-        width: 8%;
+        margin: 1% 0 0 22%;
+        width: 9%;
     }
 
     .cabecalho_link_servico{
-        margin: 0% 0% 2% 41%;
-        width: 8%;
+        margin: 0% 0% 2% 39%;
+        width: 10%;
     }
 
     .cabecalho_link_contato{
         margin: 0% 0% 2% 1.5%;
-        width: 8%;
+        width: 10%;
     }
 
     .apresentacao{
-        padding: 4% 1%;
+        padding: 4% 2%;
+    }
+
+    .titulo_apresentacao{
+        font-size: 3rem;
+    }
+
+    .apresentacao_bot_texto{
+        font-size: 1.5rem;
+    }
+
+    .apresentacao_bot_chat{
+        padding: 45% 0%;
+        width: 50vw;
+        font-size: 2rem;
+    }
+
+    .apresentacao_opcoes_texto{
+        margin-top: 10%;
+        font-size: 1.5rem; 
+        width: 50%;
+    }
+
+    .apresentacao_opcoes_opcao{
+        padding: 45% 0%;
+        width: 50vw;
+        font-size: 2rem;
+    }
+
+    .apresentacao_mecanicos_texto{
+        margin-top: 10%;
+        font-size: 1.5rem; 
+        width: 50%;
+    }
+
+    .apresentacao_mecanicos_tabela{
+        display: initial;
+        padding: 20% 0;
     }
 
     .apresentacao_pai{
         margin-top: 8%;
-        justify-content:baseline;
+        display: initial;
     }
 
     .apresentacao_mecanicos_tabela{
-        padding: 62% 0%;
+        width: 50vw; 
+        padding: 45% 0;  
+        font-size: 2rem;
     }
 
     .apresentacao_pagamento_botao{
-        margin-bottom: 10%;
+        display: initial;
+        margin-bottom: 5%;
+        width: 30vw;
+        text-align: center;
+        padding: 2% 2%;
+        margin-right: 3%;
     }
 
     .rodape_sobre{
+        margin-top: 2%;
         margin-left: 16%;
         width: 21%;
     }
 
     .rodape_privacidade{
         width: 21%;
+        margin-top: 2%;
     }
 
     .rodape_integrantes{
         width: 21%;
+        margin-top: 2%;
     }
 
     .rodape_copy_right{
         margin-left: 30%;
-        padding-bottom: 4.6%;
+        margin-top: 2%;
+        padding-bottom: 7%; 
+    }
+
+    .botao_entrar_servicos{
+        margin-left: 20%;
+        margin-right: 5%;
+        width: 12%;
+        font-size: 1rem;
+        display: block;
+    }
+
+    .apresentacao_serviços_titulo{
+        font-size: 3rem;
+        margin-left: 2%;
+        margin-top: 2%;
+        width: 40vw;
+    }
+
+
+    .titulo_servicos{
+        margin-left: 24%;
+    }
+
+    .apresentacao_serviços{
+        display: initial;
+    }
+
+    .div_atendimento_gincho{
+        padding: 2% 0% 0% 20%;
+    }
+
+    .texto_atendimento{
+        padding: 0% 0% 0% 1%;
+        font-size: 1.5rem;
+    }
+
+    .apresentacao_serviços_atendimento{
+        padding: 15% 0% 0% 0%;
+    }
+
+    .apresentacao_serviços_gincho{
+        padding: 15% 0% 0% 0%; 
+    }
+
+    .texto_gincho{
+        padding: 0% 0% 0% 7%; 
+        font-size: 1.5rem;
+        width: 35vw;
+    }
+
+    .imagem_gincho{
+        height: 11vh;
+        width: 12vw;
+        margin-top: 6%;
+    }
+
+    .imagem_atendimento{
+        height: 11vh;
+        width: 12vw;
+    }
+
+    .imagem_chaveiro{
+        height: 11vh;
+        width: 12vw;
+    }
+
+    .div_pneu_chaveiro{
+        padding: 15% 0% 0% 20%;
+    }
+
+    .texto_pneu{
+        padding: 0% 0% 0% 4%; 
+        font-size: 1.5rem;
+        width: 40vw;
+    }
+
+    .imagem_pneu{
+        height: 11vh;
+        width: 12vw;
+    }
+
+    .apresentacao_serviços_chaveiro{
+        padding: 25% 0% 15% 0%;
+    }
+
+    .texto_chaveiro{
+        padding: 0% 0% 0% 4%; 
+        font-size: 1.5rem;
+        width: 40vw;
+    }
+
+    .rodape_copy_right_servicos{
+        margin-left: 30%;
+        margin-top: 2%;
+        padding-bottom: 7%;
+    }
+
+    .titulo_contato{
+        font-size: 3rem;
+        margin-left: 1.5%;
+    }
+
+    .contato_whatsapp{
+      margin-top: 16%;  
+    }
+
+    .contato_central{
+        margin-top: 16%;
+    }
+
+    .imagem_central{
+        height: 10vh;
+    }
+
+    .imagem_sac{
+        height: 10vh;
+    }
+
+    .contato_sac{
+        margin-top: 16%;
+    }
+
+    .cabecalho_titulo_sobre{
+        font-size: 3rem;
+        margin-left: 22%;
+    }
+
+    .cabecalho_link_servico_privacidade{
+        margin: 0% 0% 2% 32%;
+        width: 10%;
+    }
+
+    .cabecalho_link_suporte{
+        margin: 0% 0% 2% 1%;
+        width: 10%;
+    }
+
+    .cabecalho_link_contato{
+        margin-left: 1%;
+    }
+
+    .titulo_integrantes{
+        font-size: 3rem;
+    }
+
+    .cabecalho_titulo_integrantes{
+        font-size: 3rem;
+        margin-left: 21%;
+    }
+
+    .imagem{
+        width: 27vw;
+    }
+
+    .informacoes{
+        font-size: 1.4rem;
+    }
+
+    .link_repositorio{
+        font-size: 1.4rem;
+        margin-bottom: 5%;
+    }
+
+    .cabecalho_titulo_privacidade{
+        font-size: 2.2rem;
+        margin-left: 14%;
+        width: 50%;
+    }
+
+    .botao_entrar_privacidade{
+        margin: 2% 0% 2% 1%;
+        width: 10%;
+    }
+
+    .titulo_privacidade{
+        font-size: 1.8rem;
+        font-weight: normal;
     }
 }
 
@@ -1064,6 +1288,10 @@ body {
 
     .contato_sac{
         margin-top: 16%;
+    }
+
+    .imagem_whatsapp{
+        height: 10vh;
     }
 
     .cabecalho_titulo_sobre{

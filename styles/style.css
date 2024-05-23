@@ -400,15 +400,17 @@ body {
 }
 
 .div_atendimento_gincho{
-    padding: 2% 0% 0% 16%;
+    padding: 2% 0% 0% 15%;
 }
 
 .apresentacao_serviços_titulo_atendimento{
     display: flex;
-    flex-direction: column;
 }
 
 .apresentacao_serviços_titulo{
+    display: flex;
+    width: 50vw;
+    /* height: 5vh; */
     font-family: var(--font-titulo);
     font-size: 225%;
     font-weight: 300;
@@ -426,15 +428,21 @@ body {
     font-size: 100%;
 }
 
+.imagem_atendimento{
+    /* width: 8vw;; */
+    height: 12vh;
+}
+
 .paragrafo_atendimento{
     font-family: var(--font-texto);
     font-size: 100%;
     text-align: center;
+    width: 15vw;
 }
 
 .apresentacao_serviços_atendimento{
     display: flex;
-    padding: 16% 0% 0% 0%;
+    padding: 15% 0% 0% 0%;
 }
 
 .texto_gincho{
@@ -452,15 +460,20 @@ body {
     font-family: var(--font-texto);
     font-size: 100%;
     text-align: center;
+    margin-left: 3%;
+}
+
+.imagem_gincho{
+    height: 11vh;
 }
 
 .apresentacao_serviços_gincho{
     display: flex;
-    padding: 26% 0% 0% 0%;
+    padding: 15% 0% 10% 0%;
 }
 
 .div_pneu_chaveiro{
-    padding: 9.5% 0% 0% 15%;
+    padding: 13% 0% 0% 0%;
 }
 
 .texto_pneu{
@@ -506,7 +519,7 @@ body {
 
 .apresentacao_serviços_chaveiro{
     display: flex;
-    padding: 21% 0% 25% 0%;
+    padding: 32% 0% 25% 0%;
 }
 
 .botao_sobre_servicos{
@@ -833,7 +846,11 @@ body {
 
 @media (max-width: 1440px){
     .cabecalho_titulo{
-        margin-left: 47%;
+        margin-left: 35%;
+    }
+
+    .botao_entrar{
+        margin: 1% 0 0 25%;
     }
 
     .cabecalho_link_servico{
@@ -845,7 +862,11 @@ body {
     }
 
     .rodape_copy_right{
-        margin-left: 6%;
+        margin-left: 37%;
+    }
+
+    .botao_entrar_servicos{
+        margin-left: 25%;
     }
 
     .div_atendimento_gincho{
@@ -853,7 +874,15 @@ body {
     }
 
     .div_pneu_chaveiro{
-        padding: 11.5% 0% 0% 7%;
+        padding: 13% 5% 0% 0%;
+    }
+
+    .imagem_pneu{
+        height: 12vh;
+    }
+
+    .paragrafo_atendimento{
+        width: 20vw;
     }
     
     .apresentacao_serviços_chaveiro{
@@ -861,8 +890,20 @@ body {
         padding: 24% 0% 25% 0%;
     }
 
-    .cabecalho_titulo_privacidade{
+    .cabecalho_titulo_sobre{
         margin-left: 33%;
+    }
+
+    .cabecalho_titulo_integrantes{
+        margin-left: 32%;
+    }
+
+    .cabecalho_titulo_privacidade{
+        margin-left: 22%;
+    }
+
+    .botao_entrar_privacidade{
+        margin-left: 14%;
     }
 
     .cabecalho_link_servico_privacidade{

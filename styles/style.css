@@ -1024,16 +1024,18 @@ body {
         display: block;
     }
 
+
     .apresentacao_serviços_titulo{
         font-size: 3rem;
-        margin-left: 2%;
+        margin-left: 0%;
+        padding-left: 0;
         margin-top: 2%;
         width: 40vw;
     }
 
 
     .titulo_servicos{
-        margin-left: 24%;
+        margin-left: 25%;
     }
 
     .apresentacao_serviços{
@@ -1041,20 +1043,24 @@ body {
     }
 
     .div_atendimento_gincho{
-        padding: 2% 0% 0% 20%;
+        padding: 2% 0% 0% 10%;
     }
 
     .texto_atendimento{
-        padding: 0% 0% 0% 1%;
+        padding: 0% 0% 0% 10%;
         font-size: 1.5rem;
     }
 
+    .paragrafo_atendimento{
+        width: 40vw;
+    }
+
     .apresentacao_serviços_atendimento{
-        padding: 15% 0% 0% 0%;
+        padding: 15% 0% 0% 10%;
     }
 
     .apresentacao_serviços_gincho{
-        padding: 15% 0% 0% 0%; 
+        padding: 15% 0% 0% 10%; 
     }
 
     .texto_gincho{
@@ -1065,7 +1071,7 @@ body {
 
     .imagem_gincho{
         height: 11vh;
-        width: 12vw;
+        width: 10vw;
         margin-top: 6%;
     }
 
@@ -1076,11 +1082,11 @@ body {
 
     .imagem_chaveiro{
         height: 11vh;
-        width: 12vw;
+        width: 10vw;
     }
 
     .div_pneu_chaveiro{
-        padding: 15% 0% 0% 20%;
+        padding: 15% 0% 0% 10%;
     }
 
     .texto_pneu{
@@ -1091,11 +1097,15 @@ body {
 
     .imagem_pneu{
         height: 11vh;
-        width: 12vw;
+        width: 10vw;
+    }
+
+    .apresentacao_serviços_pneu{
+        padding: 15% 0% 15% 10%;
     }
 
     .apresentacao_serviços_chaveiro{
-        padding: 25% 0% 15% 0%;
+        padding: 15% 0% 15% 10%;
     }
 
     .texto_chaveiro{
@@ -1155,7 +1165,7 @@ body {
     }
 
     .titulo_integrantes{
-        font-size: 3rem;
+        font-size: 2.5rem;
     }
 
     .cabecalho_titulo_integrantes{
@@ -1163,16 +1173,20 @@ body {
         margin-left: 21%;
     }
 
+    .botao_entrar_integrantes{
+        margin-left: 20%;
+    }
+
     .imagem{
-        width: 27vw;
+        width: 20vw;
     }
 
     .informacoes{
-        font-size: 1.4rem;
+        font-size: 1.2rem;
     }
 
     .link_repositorio{
-        font-size: 1.4rem;
+        font-size: 1.2rem;
         margin-bottom: 5%;
     }
 

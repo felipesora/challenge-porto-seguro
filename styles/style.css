@@ -1395,19 +1395,22 @@ body {
     }
 
     .imagem_gincho{
-        height: 8vh;
+       width: 12vw; 
     }
 
     .imagem_atendimento{
-        height: 8vh;
+        width: 12vw;
+        margin-top: 5%;
     }
 
     .imagem_chaveiro{
-        height: 8vh;
+        width: 12vw;
+        margin-top: 5%;
     }
 
     .imagem_pneu{
-        height: 8vh;
+        width: 12vw;
+        margin-top: 5%;
     }
 
     .rodape_copy_right_servicos{

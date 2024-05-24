@@ -1487,7 +1487,6 @@ body {
     }
 }
 
-
 @media (max-width: 430px){
     .logo_4wheels{
         margin: 5% 0px 0px 5%;
@@ -1495,14 +1494,14 @@ body {
     }
 
     .cabecalho_titulo{
-       font-size: 2.5rem; 
-       margin-left: 15%;
+       font-size: 2.2rem; 
+       margin-left: 17%;
     }
 
     .botao_entrar{
-        margin-left: 10%;
-        margin-right: 3%;
-        width: 12%;
+        margin-left: 14%;
+        margin-right: 0%;
+        width: 14%;
         font-size: 1rem;
         display: block;
     }
@@ -1546,6 +1545,19 @@ body {
         margin-left: 1%;
     }
 
+    .apresentacao_opcoes_texto{
+        font-size: 1rem;
+    }
+
+    .apresentacao_mecanicos_texto{
+        font-size: 1rem;
+    }
+
+    .apresentacao_pagamento_botao{
+        font-size: 1.2rem;
+        width: 35%;
+    }
+
     .rodape_links{
         margin-top: 11.5%;
     }
@@ -1575,20 +1587,17 @@ body {
     }
 
     .botao_entrar_servicos{
-        margin-left: 7%;
-        margin-right: 5%;
-        width: 12%;
+        margin-left: 10%;
+        margin-right: 0%;
+        width: 17%;
         font-size: 1rem;
         display: block;
     }
 
-    .apresentacao_serviços_titulo_atendimento{
-        font-size: 1rem;
-        margin-left: 1.5%;
-    }
 
     .titulo_servicos{
-        margin-left: 13%;
+        margin-left: 16%;
+        font-size: 2.2rem;
     }
 
     .apresentacao_serviços{
@@ -1601,18 +1610,22 @@ body {
 
     .texto_atendimento{
         padding: 0% 0% 0% 1%; 
+        font-size: 1rem;
     }
 
-    .texto_atendimento{
-        padding: 0% 0% 0% 1%;
+
+    .apresentacao_serviços_titulo{
+        font-size: 2rem;
     }
 
     .apresentacao_serviços_atendimento{
-        padding: 20% 0% 0% 0%;
+        padding: 15% 0% 0% 0%;
+        margin-left: 15%;
     }
 
     .apresentacao_serviços_gincho{
-        padding: 25% 0% 0% 0%; 
+        padding: 20% 0% 0% 0%; 
+        margin-left: 15%;
     }
 
     .texto_gincho{
@@ -1620,28 +1633,48 @@ body {
         font-size: 1rem;
     }
 
+    .texto_pneu{
+        padding: 0% 0% 0% 0%;
+        font-size: 1rem;
+    }
+
     .imagem_gincho{
-        height: 10vh;
+        width: 17vw;
+        margin-right: 5%;
     }
 
     .imagem_atendimento{
-        height: 10vh;
+        width: 17vw;
+        margin-right: 5%;
     }
 
     .imagem_chaveiro{
-        height: 10vh;
+        width: 17vw;
+        margin-right: 5%;
     }
 
     .div_pneu_chaveiro{
-        padding: 25% 0% 0% 1.5%;
+        padding: 2% 0% 0% 1.5%;
     }
 
     .imagem_pneu{
-        height: 10vh;
+        width: 17vw;
+        margin-right: 5%;
+    }
+
+    .apresentacao_serviços_pneu{
+        padding: 20% 0% 0% 0%; 
+        margin-left: 15%;
     }
 
     .apresentacao_serviços_chaveiro{
-        padding: 25% 0% 15% 0%;
+        padding: 20% 0% 0% 0%; 
+        margin-left: 15%;
+    }
+
+    .texto_chaveiro{
+        padding: 0% 0% 0% 0%;
+        font-size: 1rem;
     }
 
     .rodape_copy_right_servicos{
@@ -1664,11 +1697,13 @@ body {
     }
 
     .imagem_central{
-        height: 10vh;
+        width: 17vw;
+        height: 7vh;
     }
 
     .imagem_sac{
-        height: 10vh;
+        width: 17vw;
+        height: 7vh;
     }
 
     .contato_sac{
@@ -1676,12 +1711,25 @@ body {
     }
 
     .imagem_whatsapp{
-        height: 10vh;
+        width: 17vw;
+        height: 7vh;
+    }
+
+    .texto_whatsapp{
+        font-size: 0.9rem;
+    }
+
+    .texto_central{
+        font-size: 0.9rem;
+    }
+
+    .texto_sac{
+        font-size: 0.9rem;
     }
 
     .cabecalho_titulo_sobre{
         font-size: 1.7rem;
-        margin-left: 14%;
+        margin-left: 18%;
     }
 
     .cabecalho_link_servico_privacidade{
@@ -1700,34 +1748,68 @@ body {
         margin-left: 1%;
     }
 
+    .titulo_sobre{
+        font-size: 2rem;
+    }
+
+    .sobre_textos{
+        font-size: 0.9rem;
+    }
+
     .cabecalho_titulo_integrantes{
         font-size: 1.8rem;
-        margin-left: 11%;
+        margin-left: 15%;
+    }
+
+    .botao_entrar_integrantes{
+        margin-left: 8%;
+    }
+
+    .titulo_integrantes{
+        font-size: 2.5rem;
+        margin-bottom: 10%;
     }
 
     .imagem{
-        width: 35vw;
+        width: 32vw;
+    }
+
+    .integrante_felipe{
+        margin-top: 10%;
+    }
+
+    .integrante_gabriel{
+        margin-top: 10%;
     }
 
     .informacoes{
         font-size: 0.9rem;
     }
 
+    .link_repositorio{
+        font-size: 0.9rem;
+    }
+
     .cabecalho_titulo_privacidade{
-        font-size: 1.5rem;
-        margin-left: 17%;
-        width: 40%;
+        font-size: 1.2rem;
+        margin-left: 8%;
+        width: auto;
     }
 
     .botao_entrar_privacidade{
-        margin-left: 10%;
+        margin-left: 6%;
         margin-right: 3%;
         width: 12%;
         font-size: 1rem;
     }
 
     .titulo_privacidade{
-        font-size: 1.8rem;
+        font-size: 1.5rem;
         font-weight: normal;
+    }
+
+    .texto_privacidade{
+        font-size: 0.9rem;
+        margin-top: 10%;
     }
 }
